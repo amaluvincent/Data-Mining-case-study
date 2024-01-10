@@ -219,4 +219,4 @@ for i, metric in enumerate(['Accuracy', 'Precision', 'Recall', 'F1 Score']):
     axs[row, col].set_title(f'Model Comparison - {metric}')
     axs[row, col].set_ylabel(metric)
 plt.savefig("model comparison-performance metrics.png")
-  
+  plt.show()
